@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="no-referrer" name="referrer"/>
+  <meta content="NexoTech, prototipo funcional de una plataforma de noticias tecnológicas." name="description"/>
+  <title>
+   Contacto | NexoTech
+  </title>
+  <link href="assets/css/styles.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header class="site-header">
+   <div class="container header-row">
+    <a class="brand" href="index.html">
+     Nexo
+     <span>
+      Tech
+     </span>
+    </a>
+    <button aria-label="Abrir menú" class="menu-btn">
+     ☰
+    </button>
+    <nav aria-label="Navegación principal" class="nav">
+     <a class="" href="index.html">
+      Inicio
+     </a>
+     <a class="" href="noticias.html">
+      Noticias
+     </a>
+     <a class="" href="favoritos.html">
+      Favoritos
+     </a>
+     <a class="" href="gestion.html">
+      Gestión
+     </a>
+     <a class="active" href="contacto.html">
+      Contacto
+     </a>
+    </nav>
+    <form class="search-inline" data-global-search="">
+     <input aria-label="Buscar noticias" placeholder="Buscar"/>
+     <button aria-label="Buscar">
+      ⌕
+     </button>
+    </form>
+   </div>
+  </header>
+  <div class="trend-bar">
+   <div class="container trend-row">
+    <span class="trend-label">AHORA EN NEXOTECH</span>
+    <div class="trend-links">
+     <a href="detalle.html?id=1">IA aplicada al desarrollo</a>
+     <a href="detalle.html?id=8">Passkeys y seguridad</a>
+     <a href="detalle.html?id=9">Wi‑Fi 7 en casa</a>
+     <a href="detalle.html?id=12">Portafolio de desarrollador</a>
+    </div>
+   </div>
+  </div>
+  <main>
+   <!-- Formulario con validación personalizada en JavaScript -->
+   <section class="section">
+    <div class="container">
+     <div class="section-head">
+      <div>
+       <h1 class="page-title">
+        Hablemos
+       </h1>
+       <p class="muted">
+        ¿Tienes una sugerencia o quieres compartir una noticia? Escríbenos.
+       </p>
+      </div>
+     </div>
+     <div class="contact-layout">
+      <aside class="contact-panel">
+       <span class="eyebrow">
+        NEXOTECH
+       </span>
+       <h2>
+        Conectamos personas con la tecnología que transforma el presente.
+       </h2>
+       <img class="contact-visual" src="assets/img/contact-tech.svg" alt="Ilustración tecnológica de contacto">
+       <p class="muted">
+        <strong>
+         Correo
+        </strong>
+        <br/>
+        contacto@nexotech.co
+       </p>
+       <p class="muted">
+        <strong>
+         Ubicación
+        </strong>
+        <br/>
+        Medellín, Colombia
+       </p>
+      </aside>
+      <section class="form-card">
+       <h2>
+        Envíanos un mensaje
+       </h2>
+       <form id="contact-form" novalidate="">
+        <div class="field">
+         <label for="nombre">
+          Nombre *
+         </label>
+         <input autocomplete="name" id="nombre" name="nombre"/>
+         <span class="error" data-error="nombre">
+         </span>
+        </div>
+        <div class="field">
+         <label for="correo">
+          Correo electrónico *
+         </label>
+         <input autocomplete="email" id="correo" name="correo" type="email"/>
+         <span class="error" data-error="correo">
+         </span>
+        </div>
+        <div class="field">
+         <label for="asunto">
+          Asunto *
+         </label>
+         <select id="asunto" name="asunto">
+          <option value="">
+           Selecciona un asunto
+          </option>
+          <option>
+           Sugerencia
+          </option>
+          <option>
+           Compartir noticia
+          </option>
+          <option>
+           Corrección de contenido
+          </option>
+          <option>
+           Otro
+          </option>
+         </select>
+         <span class="error" data-error="asunto">
+         </span>
+        </div>
+        <div class="field">
+         <label for="mensaje">
+          Mensaje *
+         </label>
+         <textarea id="mensaje" name="mensaje"></textarea>
+         <span class="error" data-error="mensaje">
+         </span>
+        </div>
+        <button class="btn btn-primary">
+         Enviar mensaje
+        </button>
+        <div class="success-message" id="contact-success" role="status">
+         Mensaje enviado correctamente. Gracias por contactar a NexoTech.
+        </div>
+       </form>
+      </section>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="site-footer">
+   <div class="container">
+    <div class="footer-grid">
+     <div>
+      <a class="brand" href="index.html" style="color:white">
+       Nexo
+       <span>
+        Tech
+       </span>
+      </a>
+      <p>
+       Información tecnológica clara, útil y actual.
+      </p>
+     </div>
+     <div>
+      <h4>
+       Explora
+      </h4>
+      <a href="index.html">
+       Inicio
+      </a>
+      <a href="noticias.html">
+       Noticias
+      </a>
+      <a href="favoritos.html">
+       Favoritos
+      </a>
+     </div>
+     <div>
+      <h4>
+       Categorías
+      </h4>
+      <a href="noticias.html?categoria=Inteligencia%20Artificial">
+       Inteligencia Artificial
+      </a>
+      <a href="noticias.html?categoria=Software">
+       Software
+      </a>
+      <a href="noticias.html?categoria=Ciberseguridad">
+       Ciberseguridad
+      </a>
+     </div>
+     <div>
+      <h4>
+       Contacto
+      </h4>
+      <p>
+       contacto@nexotech.co
+       <br/>
+       Medellín, Colombia
+      </p>
+     </div>
+    </div>
+    <div class="footer-bottom">
+     © 2026 NexoTech · Proyecto académico Front End
+    </div>
+   </div>
+  </footer>
+   <script src="assets/js/ui.js"></script>
+  <script src="assets/js/contacto.js"></script>
+ </body>
+</html>

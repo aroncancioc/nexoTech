@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="no-referrer" name="referrer"/>
+  <meta content="NexoTech, prototipo funcional de una plataforma de noticias tecnológicas." name="description"/>
+  <title>
+   Detalle | NexoTech
+  </title>
+  <link href="assets/css/styles.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header class="site-header">
+   <div class="container header-row">
+    <a class="brand" href="index.html">
+     Nexo
+     <span>
+      Tech
+     </span>
+    </a>
+    <button aria-label="Abrir menú" class="menu-btn">
+     ☰
+    </button>
+    <nav aria-label="Navegación principal" class="nav">
+     <a class="" href="index.html">
+      Inicio
+     </a>
+     <a class="active" href="noticias.html">
+      Noticias
+     </a>
+     <a class="" href="favoritos.html">
+      Favoritos
+     </a>
+     <a class="" href="gestion.html">
+      Gestión
+     </a>
+     <a class="" href="contacto.html">
+      Contacto
+     </a>
+    </nav>
+    <form class="search-inline" data-global-search="">
+     <input aria-label="Buscar noticias" placeholder="Buscar"/>
+     <button aria-label="Buscar">
+      ⌕
+     </button>
+    </form>
+   </div>
+  </header>
+  <div class="trend-bar">
+   <div class="container trend-row">
+    <span class="trend-label">AHORA EN NEXOTECH</span>
+    <div class="trend-links">
+     <a href="detalle.html?id=1">IA aplicada al desarrollo</a>
+     <a href="detalle.html?id=8">Passkeys y seguridad</a>
+     <a href="detalle.html?id=9">Wi‑Fi 7 en casa</a>
+     <a href="detalle.html?id=12">Portafolio de desarrollador</a>
+    </div>
+   </div>
+  </div>
+  <main>
+   <!-- El contenido se resuelve a partir del parámetro ?id= -->
+   <section class="section">
+    <div class="container" id="article-root">
+     <article class="article">
+           <div class="breadcrumbs"><a href="noticias.html">Noticias</a> / Inteligencia Artificial</div>
+           <span class="eyebrow">Inteligencia Artificial</span>
+           <h1>La inteligencia artificial transforma la manera en que desarrollamos software</h1>
+           <div class="article-topline"><span class="muted">27 sep 2026 · 6 min de lectura</span><button id="detail-fav" class="btn btn-secondary">♡ Guardar en favoritos</button></div>
+           <img class="article-cover" src="https://www.automation.com/documents/d/acom/ai-code-news-july-14-2026-web.png" alt="Imagen representativa de Inteligencia Artificial">
+           <div class="article-body"><h2>Una mirada al tema</h2><p>La inteligencia artificial se está incorporando a tareas cotidianas del desarrollo de software, desde la generación de borradores de código hasta la documentación y la creación de casos de prueba. Estas herramientas no sustituyen la revisión técnica: funcionan mejor cuando el equipo define criterios claros y valida cada resultado antes de incorporarlo al producto.</p><div class="quote">“La tecnología aporta mayor valor cuando amplía la capacidad de las personas para crear mejores soluciones.”</div><h2>Qué significa para los usuarios</h2><p>Para los desarrolladores, el cambio más importante está en aprender a formular mejores instrucciones, revisar posibles errores y mantener buenas prácticas de seguridad. La combinación entre conocimiento técnico, pensamiento crítico y automatización puede reducir tareas repetitivas y dejar más tiempo para diseñar soluciones útiles para las personas.</p></div>
+          </article>
+    </div>
+   </section>
+  </main>
+  <footer class="site-footer">
+   <div class="container">
+    <div class="footer-grid">
+     <div>
+      <a class="brand" href="index.html" style="color:white">
+       Nexo
+       <span>
+        Tech
+       </span>
+      </a>
+      <p>
+       Información tecnológica clara, útil y actual.
+      </p>
+     </div>
+     <div>
+      <h4>
+       Explora
+      </h4>
+      <a href="index.html">
+       Inicio
+      </a>
+      <a href="noticias.html">
+       Noticias
+      </a>
+      <a href="favoritos.html">
+       Favoritos
+      </a>
+     </div>
+     <div>
+      <h4>
+       Categorías
+      </h4>
+      <a href="noticias.html?categoria=Inteligencia%20Artificial">
+       Inteligencia Artificial
+      </a>
+      <a href="noticias.html?categoria=Software">
+       Software
+      </a>
+      <a href="noticias.html?categoria=Ciberseguridad">
+       Ciberseguridad
+      </a>
+     </div>
+     <div>
+      <h4>
+       Contacto
+      </h4>
+      <p>
+       contacto@nexotech.co
+       <br/>
+       Medellín, Colombia
+      </p>
+     </div>
+    </div>
+    <div class="footer-bottom">
+     © 2026 NexoTech · Proyecto académico Front End
+    </div>
+   </div>
+  </footer>
+   <script src="assets/js/data-service.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/detalle.js"></script>
+ </body>
+</html>
