@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "titulo": "La inteligencia artificial transforma la manera en que desarrollamos software",
+    "categoria": "Inteligencia Artificial",
+    "categoriaCorta": "IA",
+    "resumen": "Asistentes de código, pruebas automatizadas y documentación generada con IA están cambiando la rutina de los equipos de desarrollo, pero también elevan la necesidad de revisión técnica.",
+    "fecha": "2026-09-27",
+    "lectura": 8,
+    "imagen": "https://www.automation.com/documents/d/acom/ai-code-news-july-14-2026-web.png",
+    "imagenFallback": "assets/img/story-01.svg",
+    "creditoImagen": "Automation.com",
+    "fuenteImagen": "https://www.automation.com/article/flux-report-ai-visibility-gap-ai-generated-code-44.7-percent-production",
+    "destacada": true,
+    "contenido": [
+      "La inteligencia artificial ya forma parte de muchas etapas del desarrollo de software. Un asistente puede proponer fragmentos de código, explicar una función existente, sugerir casos de prueba, resumir documentación o ayudar a encontrar posibles errores. El cambio más visible no es que el programador deje de escribir código, sino que dedica más tiempo a revisar, decidir y validar lo que la herramienta propone.",
+      "En tareas repetitivas, como crear estructuras iniciales, pruebas unitarias sencillas o documentación de apoyo, la IA puede acelerar el primer borrador. Sin embargo, una respuesta aparentemente correcta puede contener errores lógicos, dependencias inseguras o soluciones que no encajan con la arquitectura del proyecto. Por eso, el resultado debe pasar por las mismas revisiones de calidad que cualquier código escrito manualmente.",
+      "La seguridad es uno de los puntos críticos. Copiar una sugerencia sin comprenderla puede introducir validaciones insuficientes, manejo incorrecto de credenciales o permisos excesivos. Las buenas prácticas siguen siendo las mismas: pruebas automatizadas, revisión por pares, análisis estático, control de versiones y validación de entradas. La IA es una capa adicional de apoyo, no un sustituto de esos controles.",
+      "Para los equipos, el reto está en definir dónde la IA aporta valor y dónde puede aumentar el riesgo. Una adopción madura incluye reglas sobre qué información puede enviarse a herramientas externas, cómo se revisan las respuestas y qué métricas se usarán para comprobar si realmente se mejora el tiempo de entrega sin deteriorar calidad o mantenibilidad."
+    ],
+    "puntosClave": [
+      "Usar la IA como copiloto y no como fuente automática de verdad.",
+      "Revisar seguridad, lógica y dependencias antes de aceptar una sugerencia.",
+      "Medir productividad junto con calidad, mantenibilidad y tasa de errores."
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Ciberseguridad: cinco prácticas esenciales para proteger el trabajo remoto",
+    "categoria": "Ciberseguridad",
+    "categoriaCorta": "SEGURIDAD",
+    "resumen": "Trabajar desde casa amplía la superficie de riesgo: cuentas, redes domésticas, equipos personales y servicios en la nube requieren controles coordinados.",
+    "fecha": "2026-09-26",
+    "lectura": 7,
+    "imagen": "https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI1LTA1L3NyLWltYWdlLTA4MDUyNS1udC0xOC1zLTI0NF8xLmpwZw.jpg",
+    "imagenFallback": "assets/img/story-02.svg",
+    "creditoImagen": "Rawpixel",
+    "fuenteImagen": "https://www.rawpixel.com/image/17844137/cybersecurity-focus-home-office",
+    "destacada": true,
+    "contenido": [
+      "El trabajo remoto cambia el perímetro de seguridad de una organización. Un empleado puede conectarse desde una red doméstica, usar aplicaciones en la nube y alternar entre equipos corporativos y personales. Eso significa que la protección ya no depende solo del firewall de la oficina: también depende de las cuentas, los dispositivos y los hábitos cotidianos del usuario.",
+      "La primera barrera es la identidad. Activar autenticación multifactor, utilizar contraseñas únicas y apoyarse en un gestor de contraseñas reduce el impacto de credenciales filtradas. Cuando un servicio ofrece passkeys, también puede ser una alternativa para disminuir la dependencia de contraseñas reutilizadas y dificultar ciertos ataques de phishing.",
+      "El equipo debe mantenerse actualizado, con cifrado de disco, bloqueo automático y software autorizado. En redes públicas o poco confiables conviene utilizar los mecanismos de acceso remoto aprobados por la organización. En casa, actualizar el router, cambiar credenciales predeterminadas y separar dispositivos invitados puede mejorar el control sobre la red.",
+      "La tecnología no elimina el factor humano. Correos falsos, archivos inesperados y solicitudes urgentes siguen siendo vías frecuentes de engaño. Una buena política de seguridad debe explicar cómo verificar una solicitud, cómo reportar un incidente y qué hacer si un dispositivo se pierde o una cuenta parece comprometida."
+    ],
+    "puntosClave": [
+      "MFA o passkeys en cuentas importantes.",
+      "Equipos actualizados, cifrados y con bloqueo automático.",
+      "Canal claro para reportar correos sospechosos o incidentes."
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Dispositivos con IA local: por qué el procesamiento en el equipo gana relevancia",
+    "categoria": "Dispositivos",
+    "categoriaCorta": "DISPOSITIVOS",
+    "resumen": "Teléfonos y computadores incorporan hardware especializado para ejecutar modelos de IA directamente en el dispositivo, reduciendo latencia y dependencia de la nube.",
+    "fecha": "2026-09-25",
+    "lectura": 7,
+    "imagen": "https://aicertswpcdn.blob.core.windows.net/newsportal/2025/09/Lucid_Origin_A_sleek_modern_smartphone_with_glowing_circuit_pa_0.jpg",
+    "imagenFallback": "assets/img/story-03.svg",
+    "creditoImagen": "AI CERTs",
+    "fuenteImagen": "https://www.aicerts.ai/news/arm-c1-cpu-cluster-boosting-on-device-ai-for-mobile-performance/",
+    "destacada": true,
+    "contenido": [
+      "Cada vez más dispositivos incluyen unidades de procesamiento especializadas para tareas de inteligencia artificial. Estas NPU o aceleradores permiten ejecutar ciertas operaciones de inferencia directamente en el teléfono o el computador, sin enviar cada petición a un servidor remoto.",
+      "El beneficio más evidente es la latencia: una tarea puede responder más rápido si se procesa localmente. También puede mejorar la privacidad cuando determinados datos permanecen en el equipo y puede mantener algunas funciones disponibles sin conexión. Ejemplos habituales incluyen transcripción, eliminación de ruido, clasificación de imágenes o generación de resúmenes pequeños.",
+      "La IA local también tiene límites. Los modelos deben adaptarse a la memoria disponible, al consumo de batería y a la capacidad térmica del dispositivo. Un modelo muy grande puede funcionar bien en la nube y ser inviable en un teléfono. Por eso aparecen técnicas de compresión, cuantización y modelos especializados para tareas concretas.",
+      "Para el usuario, la diferencia no siempre será visible como una nueva aplicación. Muchas veces la IA local aparece integrada en funciones del sistema: fotografía, accesibilidad, búsqueda, traducción o productividad. El valor real dependerá de que esas funciones resuelvan tareas útiles sin consumir recursos de manera desproporcionada."
+    ],
+    "puntosClave": [
+      "Menor latencia y algunas funciones disponibles sin conexión.",
+      "Más control local sobre ciertos datos, según cómo esté diseñada la aplicación.",
+      "El tamaño del modelo, memoria y batería siguen siendo restricciones importantes."
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Frameworks modernos para Front End: cómo elegir sin añadir complejidad innecesaria",
+    "categoria": "Software",
+    "categoriaCorta": "SOFTWARE",
+    "resumen": "Angular, React, Vue y otras herramientas ayudan a organizar interfaces grandes, pero una elección correcta depende del tamaño del proyecto, el equipo y el mantenimiento esperado.",
+    "fecha": "2026-09-24",
+    "lectura": 8,
+    "imagen": "https://images.prismic.io/easy2con/68c46c51-49b6-4eff-9463-56118d95b224_Optimized-nubelson-fernandes-UcYBL5V0xWQ-unsplash.jpg?auto=compress%2Cformat&h=500&rect=0%2C213%2C720%2C500&w=720",
+    "imagenFallback": "assets/img/story-04.svg",
+    "creditoImagen": "Nubelson Fernandes / Unsplash (vía MentorTribes)",
+    "fuenteImagen": "https://blog.mentortribes.com/posts/Ybxj0hAAACgAMQRk",
+    "destacada": false,
+    "contenido": [
+      "Los frameworks y bibliotecas de Front End aparecieron para resolver un problema práctico: cuando una interfaz crece, mantener todo en archivos sueltos de HTML, CSS y JavaScript puede volverse difícil. Los componentes reutilizables, el enrutamiento y el manejo de estado ofrecen una estructura común para dividir una aplicación en piezas más fáciles de entender.",
+      "La elección no debería hacerse solo por popularidad. Un equipo debe revisar la curva de aprendizaje, el ecosistema disponible, la frecuencia de actualización, la experiencia de los desarrolladores y la vida útil prevista del producto. Angular ofrece una estructura muy definida; React y Vue suelen permitir composiciones más flexibles. Ninguna opción es automáticamente mejor para todos los casos.",
+      "También importa el costo de complejidad. Incorporar un framework implica nuevas herramientas de compilación, dependencias, convenciones y decisiones de arquitectura. En una landing page o prototipo pequeño, JavaScript nativo puede ser suficiente. En una aplicación con múltiples vistas, formularios, estado compartido y crecimiento esperado, un framework puede compensar esa inversión inicial.",
+      "Una buena decisión técnica parte del problema. Primero se definen las necesidades de navegación, datos, validaciones, accesibilidad y despliegue; después se selecciona la herramienta. Esto evita que el proyecto se adapte a una tecnología por moda y permite que la tecnología sirva al producto."
+    ],
+    "puntosClave": [
+      "Elegir por necesidades del proyecto y no únicamente por tendencia.",
+      "Valorar mantenibilidad, conocimientos del equipo y vida útil del producto.",
+      "Usar la menor complejidad necesaria para resolver el problema."
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "Automatización inteligente para pequeñas empresas: empezar por procesos simples",
+    "categoria": "Innovación",
+    "categoriaCorta": "INNOVACIÓN",
+    "resumen": "Conectar formularios, aprobaciones, hojas de cálculo y notificaciones permite automatizar tareas repetitivas sin iniciar con proyectos costosos o complejos.",
+    "fecha": "2026-09-23",
+    "lectura": 7,
+    "imagen": "https://intuz-site-uat.b-cdn.net/aMlWAGGNHVfTPRkL_ChatGPTImageSep16_2025_05_49_10PM.png",
+    "imagenFallback": "assets/img/story-05.svg",
+    "creditoImagen": "Intuz",
+    "fuenteImagen": "https://www.intuz.com/blog/best-workflow-automation-tools",
+    "destacada": false,
+    "contenido": [
+      "La automatización de flujos de trabajo consiste en convertir un proceso repetible en una secuencia de disparadores, condiciones y acciones. Un formulario recibido puede activar una validación, registrar datos en una hoja, enviar una notificación y crear una tarea para otra persona sin que cada paso tenga que ejecutarse manualmente.",
+      "Para una pequeña empresa, los mejores candidatos suelen ser procesos frecuentes, estables y fáciles de describir. Ejemplos: registrar solicitudes, enviar confirmaciones, organizar leads, recordar vencimientos o consolidar información de varias fuentes. Automatizar un proceso confuso puede hacer que los errores ocurran más rápido, por lo que primero conviene simplificarlo.",
+      "La IA puede incorporarse en pasos donde se necesita interpretar texto, clasificar solicitudes o resumir información. Aun así, no todo requiere inteligencia artificial. Si una regla determinística puede resolver la tarea con menor costo y mayor previsibilidad, suele ser la opción más simple de mantener.",
+      "El éxito debe medirse con indicadores concretos: tiempo de ciclo, número de errores manuales, cantidad de tareas repetidas y satisfacción de quienes usan el proceso. Empezar con un flujo pequeño facilita aprender y corregir antes de automatizar procesos críticos."
+    ],
+    "puntosClave": [
+      "Documentar el proceso antes de automatizarlo.",
+      "Empezar por tareas frecuentes, repetibles y de bajo riesgo.",
+      "Medir ahorro de tiempo y reducción de errores."
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "Aprender programación con proyectos pequeños: una estrategia para avanzar con constancia",
+    "categoria": "Aprendizaje",
+    "categoriaCorta": "APRENDIZAJE",
+    "resumen": "Construir proyectos breves y documentar los errores convierte conceptos aislados en habilidades prácticas y evidencia visible de progreso.",
+    "fecha": "2026-09-22",
+    "lectura": 6,
+    "imagen": "https://gkknowledge.in/uploads/2025/10/why-coding-gets-easier-over-time-tips-to-accelerate-your-learning.webp",
+    "imagenFallback": "assets/img/story-06.svg",
+    "creditoImagen": "GK Knowledge",
+    "fuenteImagen": "https://gkknowledge.in/why-coding-gets-easier-over-time-tips-to-accelerate-your-learning",
+    "destacada": false,
+    "contenido": [
+      "Aprender programación solo leyendo teoría puede generar la sensación de comprender un concepto hasta el momento de aplicarlo. Un proyecto pequeño obliga a tomar decisiones: cómo organizar archivos, cómo nombrar variables, cómo manejar errores y cómo comprobar que el resultado funciona.",
+      "La estrategia funciona mejor cuando cada proyecto tiene un objetivo limitado. Una calculadora ayuda a practicar funciones y eventos; una lista de tareas introduce manejo de estado local; un catálogo de noticias permite trabajar con JSON, renderizado dinámico, filtros y almacenamiento en el navegador. Cada ejercicio agrega una capa sin intentar construir todo a la vez.",
+      "El error también es parte del aprendizaje. Registrar qué falló, cómo se diagnosticó y qué cambio solucionó el problema convierte una dificultad puntual en conocimiento reutilizable. Con el tiempo, esa bitácora personal reduce la dependencia de soluciones copiadas sin comprenderlas.",
+      "Los proyectos terminados pueden alimentar un portafolio, pero el valor no está únicamente en la apariencia. Explicar el problema, las decisiones técnicas, las limitaciones y lo que se mejoraría en una siguiente versión demuestra una comprensión más profunda que mostrar solo una captura de pantalla."
+    ],
+    "puntosClave": [
+      "Proyectos pequeños permiten practicar un concepto a la vez.",
+      "Documentar errores acelera el aprendizaje futuro.",
+      "Un buen portafolio explica decisiones y aprendizajes, no solo resultados."
+    ]
+  },
+  {
+    "id": 7,
+    "titulo": "Copilotos de IA en productividad: dónde aportan valor y dónde conviene revisar",
+    "categoria": "Inteligencia Artificial",
+    "categoriaCorta": "IA",
+    "resumen": "Los asistentes pueden resumir, redactar y organizar información, pero la utilidad depende de una revisión humana capaz de detectar errores y proteger datos sensibles.",
+    "fecha": "2026-09-21",
+    "lectura": 7,
+    "imagen": "https://media.easy-peasy.ai/5b1d5434-c57a-4f31-8644-9b8b4508f0f1/bea0b7e0-baf4-42ea-bd40-f6da30be708d.png",
+    "imagenFallback": "assets/img/story-07.svg",
+    "creditoImagen": "Easy-Peasy.AI",
+    "fuenteImagen": "https://easy-peasy.ai/ai-image-generator/images/ai-assistant-girl-tech-savvy-companion",
+    "destacada": false,
+    "contenido": [
+      "Los copilotos de inteligencia artificial se integran cada vez más en herramientas de productividad. Pueden resumir documentos, convertir notas en listas de tareas, redactar un primer correo, proponer una estructura de presentación o extraer temas comunes de un conjunto de textos.",
+      "El mayor ahorro aparece en el primer borrador. En lugar de empezar desde una página en blanco, el usuario recibe una propuesta que luego puede corregir. Esto cambia la habilidad necesaria: además de escribir una buena instrucción, hace falta evaluar si la respuesta está completa, si usa un tono adecuado y si los datos son correctos.",
+      "La información sensible requiere especial cuidado. Antes de pegar documentos internos, datos personales o información de clientes en una herramienta, se deben revisar las políticas de la organización y las condiciones del servicio. Un flujo de trabajo productivo no compensa una exposición innecesaria de datos.",
+      "El mejor uso de un copiloto suele combinar automatización con criterio humano. La herramienta organiza, resume o propone; la persona valida hechos, toma decisiones y asume la responsabilidad final. Esa separación es especialmente importante en temas legales, financieros, médicos o de seguridad."
+    ],
+    "puntosClave": [
+      "Excelente para borradores, clasificación y síntesis inicial.",
+      "Los hechos y cifras deben verificarse antes de reutilizarlos.",
+      "No enviar información sensible sin conocer las políticas de uso de datos."
+    ]
+  },
+  {
+    "id": 8,
+    "titulo": "Passkeys y autenticación sin contraseña: una experiencia más simple para iniciar sesión",
+    "categoria": "Ciberseguridad",
+    "categoriaCorta": "SEGURIDAD",
+    "resumen": "Las passkeys usan criptografía de clave pública y el desbloqueo del dispositivo para reducir la dependencia de contraseñas y mejorar la resistencia frente al phishing.",
+    "fecha": "2026-09-20",
+    "lectura": 8,
+    "imagen": "https://media.icn.com/media/storage/uploads/all/69a60d8239919.webp",
+    "imagenFallback": "assets/img/story-08.svg",
+    "creditoImagen": "ICN",
+    "fuenteImagen": "https://icn.com/en-jo/blog/passkeys-in-everyday-apps",
+    "destacada": false,
+    "contenido": [
+      "Una passkey es una credencial digital basada en criptografía de clave pública. Al registrarla, el dispositivo crea un par de claves: la privada permanece protegida en el dispositivo o gestor de credenciales y el servicio conserva la clave pública. Para iniciar sesión, el usuario confirma su identidad mediante el mecanismo de desbloqueo del equipo, como huella, rostro o PIN.",
+      "La experiencia elimina una tarea conocida: recordar y escribir contraseñas. También reduce el riesgo de reutilizar la misma clave en varios servicios. Como la passkey está vinculada al sitio o aplicación para la que fue creada, el navegador y el sistema operativo ayudan a impedir que se utilice en un dominio de phishing.",
+      "Para los servicios, el cambio también es relevante. En lugar de almacenar un secreto que el usuario debe escribir, se almacena una clave pública que por sí sola no permite autenticarse. El proceso de inicio de sesión verifica una firma criptográfica generada con la clave privada correspondiente.",
+      "La adopción requiere planear recuperación de cuenta, sincronización entre dispositivos y soporte para usuarios que cambian de teléfono o computador. Las passkeys mejoran la experiencia, pero no eliminan la necesidad de proteger el dispositivo, mantener mecanismos de recuperación y gestionar adecuadamente las cuentas."
+    ],
+    "puntosClave": [
+      "La clave privada no se envía al sitio durante el inicio de sesión.",
+      "El desbloqueo del dispositivo sustituye la escritura de una contraseña.",
+      "La recuperación de cuenta sigue siendo parte esencial del diseño."
+    ]
+  },
+  {
+    "id": 9,
+    "titulo": "Wi‑Fi 7 y redes domésticas: qué mejoras puede notar realmente un usuario",
+    "categoria": "Dispositivos",
+    "categoriaCorta": "DISPOSITIVOS",
+    "resumen": "Wi‑Fi 7 aumenta la capacidad de las redes inalámbricas y mejora el manejo de múltiples dispositivos, aunque el beneficio real depende del router, los clientes compatibles y el entorno.",
+    "fecha": "2026-09-19",
+    "lectura": 7,
+    "imagen": "https://www.myrepublic.co.id/_next/image?q=75&url=https%3A%2F%2Fsapi.myrepublic.net.id%2Fuploads%2FChat_GPT_Image_Aug_17_2025_08_10_05_PM_8bb8ed0de7.png&w=1080",
+    "imagenFallback": "assets/img/story-09.svg",
+    "creditoImagen": "MyRepublic",
+    "fuenteImagen": "https://www.myrepublic.co.id/blog/tips-meningkatkan-kecepatan-internet-wi-fi-di-rumah",
+    "destacada": false,
+    "contenido": [
+      "Wi‑Fi 7 es la evolución del estándar inalámbrico pensado para aumentar capacidad y eficiencia en entornos con muchos dispositivos. Además de velocidades teóricas más altas, introduce mejoras para aprovechar diferentes bandas y reducir congestión cuando varios equipos transmiten al mismo tiempo.",
+      "Una de sus características es Multi-Link Operation, que permite que dispositivos compatibles utilicen más de un enlace de radio de forma coordinada. También puede trabajar con canales más anchos en bandas donde estén permitidos. Estas capacidades buscan mejorar tanto rendimiento como latencia, especialmente en redes exigentes.",
+      "Para un hogar, cambiar solo el router no garantiza una diferencia notable. El teléfono, computador o consola también debe ser compatible, la conexión del proveedor de internet debe tener suficiente capacidad y la ubicación del punto de acceso sigue siendo fundamental. Paredes, interferencias y distancia pueden afectar más que la etiqueta de generación del router.",
+      "Antes de actualizar conviene identificar el problema actual. Si la dificultad es cobertura, quizá haga falta mejorar la ubicación o utilizar una red mesh. Si hay saturación por muchos equipos compatibles, una nueva generación puede aportar más. La decisión debe partir del uso real y no únicamente del número máximo anunciado."
+    ],
+    "puntosClave": [
+      "El beneficio depende de que router y dispositivos sean compatibles.",
+      "La ubicación y cobertura siguen siendo determinantes.",
+      "Más velocidad teórica no siempre equivale a una mejora perceptible."
+    ]
+  },
+  {
+    "id": 10,
+    "titulo": "Aplicaciones web progresivas: una alternativa entre el sitio web y la app tradicional",
+    "categoria": "Software",
+    "categoriaCorta": "SOFTWARE",
+    "resumen": "Las PWA combinan tecnologías web con instalación, caché y capacidades del dispositivo para ofrecer una experiencia más cercana a una aplicación nativa.",
+    "fecha": "2026-09-18",
+    "lectura": 8,
+    "imagen": "https://storage.googleapis.com/sales.appinst.io/2026/01/image_18046aa5402b431cf97a1e0ee10c80f2.jpeg",
+    "imagenFallback": "assets/img/story-10.svg",
+    "creditoImagen": "AppInstitute",
+    "fuenteImagen": "https://appinstitute.com/pwa-responsive-design-best-practices/",
+    "destacada": false,
+    "contenido": [
+      "Una Progressive Web App, o PWA, es una aplicación construida con tecnologías web que puede ofrecer una experiencia más cercana a una app instalada. Sigue accediéndose mediante una URL, pero en navegadores compatibles puede instalarse en el dispositivo y abrirse en una ventana independiente.",
+      "El manifiesto web describe aspectos como nombre, iconos y apariencia. Los service workers permiten interceptar solicitudes y gestionar estrategias de caché, lo que hace posible que determinadas partes de la aplicación sigan funcionando cuando la conexión es inestable o no está disponible.",
+      "La principal ventaja para un equipo es mantener una base tecnológica web capaz de ejecutarse en diferentes dispositivos. Sin embargo, no todas las capacidades nativas están disponibles de la misma manera en todos los navegadores y sistemas operativos. La compatibilidad debe evaluarse según las funciones que necesita el producto.",
+      "Una PWA es especialmente interesante para catálogos, portales, herramientas internas o servicios donde la instalación rápida y el acceso desde la web son importantes. No reemplaza automáticamente una app nativa: es una opción intermedia que debe evaluarse según experiencia, integración con hardware y necesidades de distribución."
+    ],
+    "puntosClave": [
+      "Una sola base web puede servir a múltiples plataformas.",
+      "Manifest y service worker son piezas centrales de la experiencia PWA.",
+      "La compatibilidad de funciones depende del navegador y del sistema operativo."
+    ]
+  },
+  {
+    "id": 11,
+    "titulo": "Gemelos digitales y simulación: probar cambios antes de aplicarlos en el mundo real",
+    "categoria": "Innovación",
+    "categoriaCorta": "INNOVACIÓN",
+    "resumen": "Un gemelo digital representa un objeto o sistema físico con datos y modelos que permiten monitorear su comportamiento, simular escenarios y anticipar decisiones.",
+    "fecha": "2026-09-17",
+    "lectura": 8,
+    "imagen": "https://insights.globalspec.com/images/assets/473/23473/digital_twin_OG_Hero.jpeg",
+    "imagenFallback": "assets/img/story-11.svg",
+    "creditoImagen": "GlobalSpec",
+    "fuenteImagen": "https://insights.globalspec.com/article/23473/how-digital-twins-can-transform-factory-operations",
+    "destacada": false,
+    "contenido": [
+      "Un gemelo digital es una representación virtual de un activo, proceso o sistema físico que se alimenta con datos para reflejar su estado. A diferencia de un modelo estático, puede actualizarse a medida que cambia el objeto real y utilizarse para monitoreo, análisis o simulación.",
+      "En una fábrica, por ejemplo, sensores pueden enviar temperatura, vibración o velocidad de una máquina. El modelo digital utiliza esos datos para observar tendencias, comparar comportamientos esperados y estudiar qué podría ocurrir si se modifica una configuración antes de hacerlo sobre el equipo real.",
+      "El mismo enfoque puede aplicarse a edificios, logística, energía o ciudades. El valor está en experimentar con escenarios de manera controlada, detectar posibles fallas y apoyar decisiones de mantenimiento o capacidad. A medida que aumenta la complejidad, también crece la necesidad de integrar datos de múltiples fuentes.",
+      "Un gemelo digital no es una copia perfecta de la realidad. La precisión depende de la calidad de los datos, del modelo y de los supuestos incluidos. Datos incompletos o sensores mal calibrados pueden producir conclusiones equivocadas, por lo que la validación y la gobernanza son parte esencial del sistema."
+    ],
+    "puntosClave": [
+      "Combina datos del mundo físico con una representación virtual.",
+      "Permite simular escenarios antes de intervenir el sistema real.",
+      "La calidad del modelo depende directamente de los datos y supuestos."
+    ]
+  },
+  {
+    "id": 12,
+    "titulo": "Portafolio de desarrollador: qué proyectos muestran mejor tus habilidades",
+    "categoria": "Aprendizaje",
+    "categoriaCorta": "APRENDIZAJE",
+    "resumen": "Un portafolio efectivo muestra proyectos completos, explica decisiones técnicas y permite revisar código, documentación y una demo funcional.",
+    "fecha": "2026-09-16",
+    "lectura": 7,
+    "imagen": "https://thetailorcv.com/public/blog-images/how-to-host-portfolio-free.webp",
+    "imagenFallback": "assets/img/story-12.svg",
+    "creditoImagen": "TailorCV",
+    "fuenteImagen": "https://thetailorcv.com/blog/how-to-host-portfolio-free",
+    "destacada": false,
+    "contenido": [
+      "Un portafolio de desarrollo no necesita decenas de proyectos. Tres o cuatro trabajos bien explicados pueden comunicar mejor las habilidades que una lista larga de ejercicios incompletos. El objetivo es permitir que otra persona entienda qué problema se resolvió y cuál fue el aporte técnico del desarrollador.",
+      "Cada proyecto debería incluir una descripción breve, las tecnologías utilizadas, capturas o demo, enlace al repositorio y explicación de las decisiones más importantes. Si hubo retos de rendimiento, accesibilidad, pruebas o integración, contarlos demuestra capacidad de análisis y no solo ejecución.",
+      "La calidad del repositorio también habla del desarrollador. Un README claro, commits comprensibles, estructura coherente de carpetas y código comentado cuando realmente aporta contexto facilitan que un tercero evalúe el trabajo. Incluir instrucciones de instalación y datos de prueba evita que el proyecto dependa de explicaciones privadas.",
+      "Finalmente, un portafolio debe mantenerse vivo. Revisar proyectos antiguos, corregir enlaces rotos y sustituir ejercicios básicos por trabajos más completos ayuda a que la presentación evolucione al mismo ritmo que las habilidades. Mostrar aprendizaje y mejora continua puede ser tan valioso como mostrar una tecnología específica."
+    ],
+    "puntosClave": [
+      "Priorizar pocos proyectos completos sobre muchos ejercicios pequeños.",
+      "Incluir demo, repositorio y explicación de decisiones técnicas.",
+      "Mantener documentación y enlaces actualizados."
+    ]
+  }
+]
